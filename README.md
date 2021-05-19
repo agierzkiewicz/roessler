@@ -1,4 +1,4 @@
-# A. Gierzkiewicz, P. Zgliczyński, "Periodic orbits in Rössler system"
+# A. Gierzkiewicz, P. Zgliczyński, "Periodic orbits in the Rössler system"
 
 ## An installation instruction of the programs realizing numerical part of the proofs of periodic orbits existence/nonexistence and covering relations between h-sets on a Poincaré section.
 
