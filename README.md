@@ -3,7 +3,7 @@
 ## An installation instruction of the programs realizing numerical part of the proofs of periodic orbits existence/nonexistence and covering relations between h-sets on a Poincaré section.
 
 ### Requirements:
-The program is written in C++ and has been tested under Linux Mint 18.1 with gcc (Ubuntu 5.4.0-6ubuntu1~16.04.12) compiler. The program uses the CAPD library ver. 5.0.6 (see also [sourceforge download](https://sourceforge.net/projects/capd/files/) zone). The CAPD library is also available as debian deb package. There are also prebuilt versions for Debian, Ubuntu and OSX.
+The program is written in C++ and has been tested under Linux Mint 18.1 with gcc (Ubuntu 5.4.0-6ubuntu1~16.04.12) compiler. The program uses the [CAPD](http://capd.ii.uj.edu.pl/) library ver. 5.0.6 (see also [sourceforge](https://sourceforge.net/projects/capd/files/) download zone). The CAPD library is also available as debian deb package. There are also prebuilt versions for Debian, Ubuntu and OSX.
 
 ### Compilation instruction:
 In principle it is possible to compile the CAPD library under MS Windows but we strongly recommend to compile and run the programs on linux-like systems. The following commands should be executed from the terminal (or msys environment under MS Windows)
