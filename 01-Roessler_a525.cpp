@@ -1,5 +1,5 @@
 /* ==========================================================
- * Periodic orbits in Roessler system
+ * Periodic orbits in the Roessler system
  * Anna Gierzkiewicz and Piotr Zgliczyński
  * ==========================================================
  * Program: 01-Roessler_a525.cpp
@@ -80,10 +80,10 @@ int main()
 				///===================== Procedure 2:  =====================
 				case 2:		
 				{
-					cout << "N0 covers N1? ... " << roessler525.covers2D(L[0],L[1],50) << endl;			// check if L[0] =P=> L[1]
-																												// divided horizontally into 50 pieces
-					cout << "N1 covers N1? ... " << roessler525.covers2D(L[1],L[1],100) << endl;		// if L[1] =P=> L[1]
-																												// divided horizontally into 100 pieces
+					cout << "N0 covers N1? ... " << roessler525.covers2D(L[0],L[1],80) << endl;			// check if L[0] =P=> L[1]
+																												// divided horizontally into 80 pieces
+					cout << "N1 covers N1? ... " << roessler525.covers2D(L[1],L[1],140) << endl;		// if L[1] =P=> L[1]
+																												// divided horizontally into 140 pieces
 					cout << "N1 covers N0? ... " << roessler525.covers2D(L[1],L[0],100,2) << endl;		// if L[1] =P=> L[0]
 					cout << "----------------------------------------" << endl << endl;									// divided into 100x2 pieces
 					break;
@@ -117,13 +117,13 @@ int main()
 ===========================================================
 Procedure 1
 
-A stationary point for P^3 in = {[-3.466415205012922, -3.466415205008744],[0.0346316054764013, 0.03463160547651117]} proven.
+A stationary point for P^3 in = {[-3.466415205012921, -3.466415205008745],[0.0346316054764013, 0.03463160547651117]} proven.
 -----------------------------------------------------------
 3-periodic orbit for Poincare map of the Roessler system with a = 5.25 contained in the set: 
-     p1 = {[-3.466415205012922, -3.466415205008744],[0.0346316054764013, 0.03463160547651117]}
-P^1(p1) = {[-6.264007533282314, -6.264007533274736],[0.03265435884611446, 0.03265435884612054]}
-P^2(p1) = {[-9.748889918093207, -9.748889918088977],[0.03075287338063168, 0.03075287338070214]}
-P^3(p1) = {[-3.4664152050152, -3.466415205006464],[0.03463160547637933, 0.03463160547653315]}
+     p1 = {[-3.466415205012921, -3.466415205008745],[0.0346316054764013, 0.03463160547651117]}
+P^1(p1) = {[-6.264007533282313, -6.264007533274737],[0.03265435884611445, 0.03265435884612054]}
+P^2(p1) = {[-9.748889918093207, -9.748889918088979],[0.03075287338063169, 0.03075287338070213]}
+P^3(p1) = {[-3.466415205015202, -3.46641520500646],[0.03463160547637927, 0.0346316054765332]}
 -----------------------------------------------------------
 
 ===========================================================
@@ -147,15 +147,13 @@ N1 covers N0? ... true
 || 	N0 =Pc=> N1 =Pc=> N1 =Pc=> N0
 || other: exit
 ===========================================================
-Procedure 3
+Procedure 0
 
 Goodbye!
-1.19user 0.00system 0:04.66elapsed 25%CPU (0avgtext+0avgdata 5012maxresident)k
-0inputs+0outputs (0major+178minor)pagefaults 0swaps
 
+real	0m4,368s
+user	0m1,186s
+sys	0m0,004s
 
-------------------
-(program exited with code: 0)
-Press return to continue
 
 */
